@@ -5,11 +5,11 @@ use HTML::FillInForm;
 
 requires 'render';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
-arXiv::View::FillInForm
+Catalyst::View::FillInform - Moose role for HTML::FillInform
 
 =head1 SYNOPSIS
 
