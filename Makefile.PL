@@ -5,6 +5,7 @@ all_from 'lib/Catalyst/View/FillInForm.pm';
 
 requires 'Catalyst::Runtime';
 requires 'Catalyst::View::TT';
+requires 'HTML::FillInForm';
 
 test_requires 'Catalyst::Action::RenderView';
 test_requires 'Test::WWW::Mechanize::Catalyst';
